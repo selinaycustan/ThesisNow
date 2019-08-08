@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="task" label="Ogretmen" max_length="40" name="x_376509_teznow_ogretmen" sizeclass="4" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="AD-SOYAD" max_length="40" name="ad" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="ALAN" mandatory="true" max_length="40" name="alan" type="string">
+            <choice>
+                <element inactive_on_update="false" label="CEBİR" sequence="0" value="cebir"/>
+                <element inactive_on_update="false" label="GEOMETRİ" sequence="1" value="geometri"/>
+                <element inactive_on_update="false" label="ANALİZ" sequence="2" value="analiz"/>
+                <element inactive_on_update="false" label="UYGULAMA" sequence="3" value="uygulama"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="DERS" mandatory="true" max_length="40" name="ders" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="@softtech.com.tr" label="EMAİL" max_length="40" name="email" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Eklenme Tarihi" mandatory="true" max_length="40" name="e_tarih" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" label="Mail adres" max_length="40" name="mail_adres" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" display="true" label="AD" mandatory="true" max_length="40" name="ogr_ad" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="SOYAD" mandatory="true" max_length="40" name="ogr_soyad" type="string"/>
+    </element>
+</database>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Ogrenci Otomasyon" max_length="40" name="x_376509_teznow_ogrenci_otomasyon" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="AD-SOYAD" mandatory="true" max_length="40" name="ad_soyad" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Durum" max_length="40" name="durum" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Kontenjand" max_length="40" name="kont" read_only="true" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="encode_utf8=false" label="Öğretmen Seçiniz" mandatory="true" max_length="32" name="ogretmen_sec" reference="x_376509_teznow_akademisyen_otomasyon" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="OKUL NUMARASI" mandatory="true" max_length="40" name="okul_numaras" type="string"/>
+        <element attributes="encode_utf8=false" label="Tez Konusu Seçiniz" mandatory="true" max_length="32" name="tez_sec" reference="x_376509_teznow_akademisyen_otomasyon" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Tez Konusu Seçiniz" mandatory="true" max_length="40" name="t_sec" type="string">
+            <choice>
+                <element inactive="true" inactive_on_update="true" label="Choice 1" sequence="0" value="Choice 1"/>
+                <element inactive="true" inactive_on_update="true" label="Choice 2" sequence="1" value="Choice 2"/>
+                <element inactive="true" inactive_on_update="true" label="Choice 3" sequence="2" value="Choice 3"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="tez_sec"/>
+        </index>
+        <index name="index2">
+            <element name="ogretmen_sec"/>
+        </index>
+    </element>
+</database>

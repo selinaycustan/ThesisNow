@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="task" label="Ogrenci" max_length="40" name="x_376509_teznow_ogrenci" sizeclass="1" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="BÖLÜM" mandatory="true" max_length="40" name="bolum" type="string">
+            <choice>
+                <element inactive_on_update="false" label="MATEMATİK" sequence="0" value="matematik"/>
+                <element inactive_on_update="false" label="FİZİK" sequence="1" value="fizik"/>
+                <element inactive_on_update="false" label="KİMYA" sequence="2" value="kimya"/>
+                <element inactive_on_update="false" label="BİYOLOJİ" sequence="3" value="biyoloji"/>
+                <element inactive_on_update="false" label="EDEBİYAT" sequence="4" value="edebiyat"/>
+                <element inactive_on_update="false" label="BİLGİSAYAR BİLİMLERİ" sequence="5" value="bilgisayar bilimleri"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="EKLENME TARİHİ" mandatory="true" max_length="40" name="e_tarih" type="calendar_date_time"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="FAKÜLTE" mandatory="true" max_length="40" name="fakulte" type="string">
+            <choice>
+                <element inactive_on_update="false" label="FEN EDEBİYAT" sequence="0" value="fen edebiyat"/>
+                <element inactive_on_update="false" label="ELEKTRİK ELEKTRONİK" sequence="1" value="elektrik elektronik"/>
+                <element inactive_on_update="false" label="MAKİNE" sequence="2" value="makine"/>
+                <element inactive_on_update="false" label="GEMİ İNŞAAT" sequence="3" value="gemi inşaat"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="AD" mandatory="true" max_length="40" name="o_ad" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="SOYAD" mandatory="true" max_length="40" name="o_soyad" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="AD-SOYAD" max_length="40" name="y_isim" read_only="true" type="string"/>
+    </element>
+</database>

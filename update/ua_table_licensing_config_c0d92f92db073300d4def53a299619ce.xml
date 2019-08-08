@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ua_table_licensing_config">
+    <ua_table_licensing_config action="INSERT_OR_UPDATE">
+        <is_fulfillment>false</is_fulfillment>
+        <license_condition/>
+        <license_model>none</license_model>
+        <license_roles/>
+        <name>x_376509_teznow_ogrenci_otomasyon</name>
+        <op_delete>true</op_delete>
+        <op_insert>true</op_insert>
+        <op_update>true</op_update>
+        <owner_condition/>
+        <sys_class_name>ua_table_licensing_config</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-06 10:43:33</sys_created_on>
+        <sys_id>c0d92f92db073300d4def53a299619ce</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_376509_teznow_ogrenci_otomasyon</sys_name>
+        <sys_package display_value="TezNow" source="x_376509_teznow">49a49ec2dbc33300d4def53a2996198d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="TezNow">49a49ec2dbc33300d4def53a2996198d</sys_scope>
+        <sys_update_name>ua_table_licensing_config_c0d92f92db073300d4def53a299619ce</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-06 10:43:33</sys_updated_on>
+    </ua_table_licensing_config>
+</record_update>

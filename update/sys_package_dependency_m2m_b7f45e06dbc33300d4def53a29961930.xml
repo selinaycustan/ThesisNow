@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_package_dependency_m2m">
+    <sys_package_dependency_m2m action="INSERT_OR_UPDATE">
+        <dependency display_value="Task table schema" source="com.glide.task">e9c855b47420330078509adcc48c8787</dependency>
+        <min_version>1.0.0</min_version>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-05 09:54:30</sys_created_on>
+        <sys_id>b7f45e06dbc33300d4def53a29961930</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_package display_value="TezNow" source="x_376509_teznow">49a49ec2dbc33300d4def53a2996198d</sys_package>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-05 09:54:30</sys_updated_on>
+    </sys_package_dependency_m2m>
+</record_update>

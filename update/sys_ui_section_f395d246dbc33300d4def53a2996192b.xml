@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="YETKİLİ BİLGİLERİ" section_id="f395d246dbc33300d4def53a2996192b" sys_domain="global" table="x_376509_teznow_ogretmen" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>ad</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-08-06 12:56:33</sys_created_on>
+            <sys_id>18488022db873300d4def53a29961949</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="YETKİLİ BİLGİLERİ" display_value="YETKİLİ BİLGİLERİ" name="x_376509_teznow_ogretmen" sys_domain="global" view="Default view">f395d246dbc33300d4def53a2996192b</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-08-06 12:56:33</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-08-06 12:56:33</sys_created_on>
+            <sys_id>98488022db873300d4def53a29961949</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="YETKİLİ BİLGİLERİ" display_value="YETKİLİ BİLGİLERİ" name="x_376509_teznow_ogretmen" sys_domain="global" view="Default view">f395d246dbc33300d4def53a2996192b</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-08-06 12:56:33</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>e_tarih</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-08-06 12:56:33</sys_created_on>
+            <sys_id>1c488022db873300d4def53a29961949</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="YETKİLİ BİLGİLERİ" display_value="YETKİLİ BİLGİLERİ" name="x_376509_teznow_ogretmen" sys_domain="global" view="Default view">f395d246dbc33300d4def53a2996192b</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-08-06 12:56:33</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-08-06 12:56:33</sys_created_on>
+            <sys_id>9c488022db873300d4def53a29961949</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="YETKİLİ BİLGİLERİ" display_value="YETKİLİ BİLGİLERİ" name="x_376509_teznow_ogretmen" sys_domain="global" view="Default view">f395d246dbc33300d4def53a2996192b</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-08-06 12:56:33</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-08-06 12:56:33</sys_created_on>
+            <sys_id>10488022db873300d4def53a2996194a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="YETKİLİ BİLGİLERİ" display_value="YETKİLİ BİLGİLERİ" name="x_376509_teznow_ogretmen" sys_domain="global" view="Default view">f395d246dbc33300d4def53a2996192b</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-08-06 12:56:33</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>ogr_ad</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-08-06 12:56:33</sys_created_on>
+            <sys_id>90488022db873300d4def53a2996194a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="YETKİLİ BİLGİLERİ" display_value="YETKİLİ BİLGİLERİ" name="x_376509_teznow_ogretmen" sys_domain="global" view="Default view">f395d246dbc33300d4def53a2996192b</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-08-06 12:56:33</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>ogr_soyad</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-08-06 12:56:33</sys_created_on>
+            <sys_id>14488022db873300d4def53a2996194a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="YETKİLİ BİLGİLERİ" display_value="YETKİLİ BİLGİLERİ" name="x_376509_teznow_ogretmen" sys_domain="global" view="Default view">f395d246dbc33300d4def53a2996192b</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-08-06 12:56:33</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>email</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-08-06 12:56:33</sys_created_on>
+            <sys_id>94488022db873300d4def53a2996194a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="YETKİLİ BİLGİLERİ" display_value="YETKİLİ BİLGİLERİ" name="x_376509_teznow_ogretmen" sys_domain="global" view="Default view">f395d246dbc33300d4def53a2996192b</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-08-06 12:56:33</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-08-06 12:56:33</sys_created_on>
+            <sys_id>18488022db873300d4def53a2996194a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="YETKİLİ BİLGİLERİ" display_value="YETKİLİ BİLGİLERİ" name="x_376509_teznow_ogretmen" sys_domain="global" view="Default view">f395d246dbc33300d4def53a2996192b</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-08-06 12:56:33</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>alan</element>
+            <position>9</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-08-06 12:56:33</sys_created_on>
+            <sys_id>98488022db873300d4def53a2996194a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="YETKİLİ BİLGİLERİ" display_value="YETKİLİ BİLGİLERİ" name="x_376509_teznow_ogretmen" sys_domain="global" view="Default view">f395d246dbc33300d4def53a2996192b</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-08-06 12:56:33</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>ders</element>
+            <position>10</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-08-06 12:56:33</sys_created_on>
+            <sys_id>1c488022db873300d4def53a2996194a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="YETKİLİ BİLGİLERİ" display_value="YETKİLİ BİLGİLERİ" name="x_376509_teznow_ogretmen" sys_domain="global" view="Default view">f395d246dbc33300d4def53a2996192b</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-08-06 12:56:33</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>YETKİLİ BİLGİLERİ</caption>
+            <header>false</header>
+            <name>x_376509_teznow_ogretmen</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-08-05 09:57:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f395d246dbc33300d4def53a2996192b</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>YETKİLİ BİLGİLERİ</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="TezNow" source="x_376509_teznow">49a49ec2dbc33300d4def53a2996198d</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="TezNow">49a49ec2dbc33300d4def53a2996198d</sys_scope>
+            <sys_update_name>sys_ui_section_f395d246dbc33300d4def53a2996192b</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-08-05 10:00:36</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

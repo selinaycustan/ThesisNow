@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="task" label="Akademisyen Otomasyon" max_length="40" name="x_376509_teznow_akademisyen_otomasyon" sizeclass="4" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="ALAN" max_length="40" name="alan" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="ALAN" max_length="40" name="alan1" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="DERS" max_length="40" name="ders" read_only="true" type="string"/>
+        <element label="Kontenjan" mandatory="true" max_length="40" name="kont" type="integer"/>
+        <element attributes="encode_utf8=false" display="true" label="Öğretmen Girişi" mandatory="true" max_length="32" name="og_giris" reference="x_376509_teznow_ogretmen" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Tez Konusu" mandatory="true" max_length="40" name="t_konu" type="string"/>
+    </element>
+</database>

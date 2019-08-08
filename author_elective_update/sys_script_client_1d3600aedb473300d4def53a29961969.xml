@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>email</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Email</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+   //Type appropriate comment here, and begin script below
+     var saveAndClose = true;
+ //Type appropriate comment here, and begin script below
+	var mail='@softtech.com.tr';
+ g_form.setValue('email',mail);
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-06 12:49:20</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>1d3600aedb473300d4def53a29961969</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Email</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="TezNow" source="x_376509_teznow">49a49ec2dbc33300d4def53a2996198d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="TezNow">49a49ec2dbc33300d4def53a2996198d</sys_scope>
+        <sys_update_name>sys_script_client_1d3600aedb473300d4def53a29961969</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-06 12:56:43</sys_updated_on>
+        <table>x_376509_teznow_ogretmen</table>
+        <type>onLoad</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="TezNow">49a49ec2dbc33300d4def53a2996198d</application>
+        <file_path/>
+        <instance_id>a76e0fbcdbb077803050ac44d49619d2</instance_id>
+        <instance_name>dev80358</instance_name>
+        <name>sys_script_client_1d3600aedb473300d4def53a29961969</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field&gt;email&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;Email&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onLoad() {
+   //Type appropriate comment here, and begin script below
+     var saveAndClose = true;
+ //Type appropriate comment here, and begin script below
+	var mail='@softtech.com.tr';
+ g_form.setValue('email',mail);
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-08-06 12:49:20&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;1d3600aedb473300d4def53a29961969&lt;/sys_id&gt;&lt;sys_mod_count&gt;5&lt;/sys_mod_count&gt;&lt;sys_name&gt;Email&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="TezNow" source="x_376509_teznow"&gt;49a49ec2dbc33300d4def53a2996198d&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="TezNow"&gt;49a49ec2dbc33300d4def53a2996198d&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_1d3600aedb473300d4def53a29961969&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-08-06 12:56:43&lt;/sys_updated_on&gt;&lt;table&gt;x_376509_teznow_ogretmen&lt;/table&gt;&lt;type&gt;onLoad&lt;/type&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-432978688</payload_hash>
+        <record_name>Email</record_name>
+        <reverted_from/>
+        <source>81a49606dbc33300d4def53a29961960</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-06 12:56:43</sys_created_on>
+        <sys_id>07488022db873300d4def53a299619dc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16c6700d6960000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-06 12:56:43</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>8f4880229c8733004457ea98eb2a51db</update_guid>
+        <update_guid_history>8f4880229c8733004457ea98eb2a51db:-432978688,c5f708ee5747330075f780b2dd89fb32:-1720270081,4787c4eea6473300f94477ffc20a7e0b:-432978688,f25740ee724733003fc6bd6958d89f31:-2029022163,bed644ae53473300d3e253d696c277d4:-1579663901,7296c46e4c473300bbf8c3224f5581c1:1530226845</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-07 10:17:12</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>0f46dc602de14b0080edaaf6c97aa400</sys_id>
+        <sys_metadata>1d3600aedb473300d4def53a29961969</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Email</sys_name>
+        <sys_package display_value="TezNow" source="x_376509_teznow">49a49ec2dbc33300d4def53a2996198d</sys_package>
+        <sys_parent display_value="Ogretmen">bec45a06dbc33300d4def53a29961979</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="TezNow">49a49ec2dbc33300d4def53a2996198d</sys_scope>
+        <sys_scope_delete display_value="">4577e594f0ee46d3acf360be3e4ffe89</sys_scope_delete>
+        <sys_update_name>sys_script_client_1d3600aedb473300d4def53a29961969</sys_update_name>
+        <sys_update_version display_value="sys_script_client_1d3600aedb473300d4def53a29961969">07488022db873300d4def53a299619dc</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-07 10:17:12</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

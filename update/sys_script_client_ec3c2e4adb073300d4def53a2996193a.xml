@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>o_ad</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Ogr_Otomatik_Kayıt</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+   //Type appropriate comment here, and begin script below
+	g_form.setValue('y_isim',g_user.getFullName());
+   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-05 11:38:58</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ec3c2e4adb073300d4def53a2996193a</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Ogr_Otomatik_Kayıt</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="TezNow" source="x_376509_teznow">49a49ec2dbc33300d4def53a2996198d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="TezNow">49a49ec2dbc33300d4def53a2996198d</sys_scope>
+        <sys_update_name>sys_script_client_ec3c2e4adb073300d4def53a2996193a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-06 12:45:52</sys_updated_on>
+        <table>x_376509_teznow_ogrenci</table>
+        <type>onLoad</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

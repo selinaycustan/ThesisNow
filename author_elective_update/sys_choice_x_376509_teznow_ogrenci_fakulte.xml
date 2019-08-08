@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="fakulte" table="x_376509_teznow_ogrenci" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>fakulte</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>FEN EDEBİYAT</label>
+            <language>en</language>
+            <name>x_376509_teznow_ogrenci</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-08-05 11:35:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>142cea4adb073300d4def53a29961906</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-08-05 11:35:34</sys_updated_on>
+            <value>fen edebiyat</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>fakulte</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>ELEKTRİK ELEKTRONİK</label>
+            <language>en</language>
+            <name>x_376509_teznow_ogrenci</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-08-05 11:35:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d02cea4adb073300d4def53a29961908</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-08-05 11:35:34</sys_updated_on>
+            <value>elektrik elektronik</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>fakulte</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>MAKİNE</label>
+            <language>en</language>
+            <name>x_376509_teznow_ogrenci</name>
+            <sequence>2</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-08-05 11:35:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9c2cea4adb073300d4def53a29961909</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-08-05 11:35:34</sys_updated_on>
+            <value>makine</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>fakulte</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>GEMİ İNŞAAT</label>
+            <language>en</language>
+            <name>x_376509_teznow_ogrenci</name>
+            <sequence>3</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-08-05 11:35:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>582cea4adb073300d4def53a2996190b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-08-05 11:35:34</sys_updated_on>
+            <value>gemi inşaat</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>fakulte</element>
+            <name>x_376509_teznow_ogrenci</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-08-05 11:35:34</sys_created_on>
+            <sys_id>5c2cea4adb073300d4def53a29961906</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>fakulte</sys_name>
+            <sys_package display_value="TezNow" source="x_376509_teznow">49a49ec2dbc33300d4def53a2996198d</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="TezNow">49a49ec2dbc33300d4def53a2996198d</sys_scope>
+            <sys_update_name>sys_choice_x_376509_teznow_ogrenci_fakulte</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-08-05 11:35:34</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

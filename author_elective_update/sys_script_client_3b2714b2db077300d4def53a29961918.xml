@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>ad_soyad</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Ogrenci_Sistem_Giris</name>
+        <order/>
+        <script><![CDATA[function onSubmit() {
+   //Type appropriate comment here, and begin script below
+	var ga=new GlideAjax('Ogrenci_Sistem_Giris');
+	ga.addParam('sys_parm_name','login');
+	ga.addParam('sysparm_log',newValue);
+	
+	ga.getXML(callback);
+	function callback(response){
+		var answer=response.responseXML.docementElement.getAttribute("answer");
+		if(g_form.getValue('ad_soyad')==answer){
+			
+			g_form.setValue("okul_numarası",number);
+		   
+		   }
+	}
+	
+// 	var ga=new GlideAjax('Otomatik_Doldur');
+// 	ga.addParam('sysparm_name','getDetails');
+// 	ga.addParam('sysparm_caller',newValue);
+	
+// 	ga.getXML(callback);
+	
+// 	function callback(response){
+//       var answer = response.responseXML.documentElement.getAttribute("answer");
+// 		var result=answer.split(";");
+// 		//g_form.clearValue("alan",answer);
+// 	g_form.setValue("alan",result[0]);
+// 		g_form.setValue("ders",result[1]);
+// 	}
+
+   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-07 08:54:58</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>3b2714b2db077300d4def53a29961918</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Ogrenci_Sistem_Giris</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="TezNow" source="x_376509_teznow">49a49ec2dbc33300d4def53a2996198d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="TezNow">49a49ec2dbc33300d4def53a2996198d</sys_scope>
+        <sys_update_name>sys_script_client_3b2714b2db077300d4def53a29961918</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-07 08:54:58</sys_updated_on>
+        <table>x_376509_teznow_ogrenci_otomasyon</table>
+        <type>onSubmit</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="TezNow">49a49ec2dbc33300d4def53a2996198d</application>
+        <file_path/>
+        <instance_id>a76e0fbcdbb077803050ac44d49619d2</instance_id>
+        <instance_name>dev80358</instance_name>
+        <name>sys_script_client_3b2714b2db077300d4def53a29961918</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field&gt;ad_soyad&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;Ogrenci_Sistem_Giris&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onSubmit() {
+   //Type appropriate comment here, and begin script below
+	var ga=new GlideAjax('Ogrenci_Sistem_Giris');
+	ga.addParam('sys_parm_name','login');
+	ga.addParam('sysparm_log',newValue);
+	
+	ga.getXML(callback);
+	function callback(response){
+		var answer=response.responseXML.docementElement.getAttribute("answer");
+		if(g_form.getValue('ad_soyad')==answer){
+			
+			g_form.setValue("okul_numarası",number);
+		   
+		   }
+	}
+	
+// 	var ga=new GlideAjax('Otomatik_Doldur');
+// 	ga.addParam('sysparm_name','getDetails');
+// 	ga.addParam('sysparm_caller',newValue);
+	
+// 	ga.getXML(callback);
+	
+// 	function callback(response){
+//       var answer = response.responseXML.documentElement.getAttribute("answer");
+// 		var result=answer.split(";");
+// 		//g_form.clearValue("alan",answer);
+// 	g_form.setValue("alan",result[0]);
+// 		g_form.setValue("ders",result[1]);
+// 	}
+
+   
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-08-07 08:54:58&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;3b2714b2db077300d4def53a29961918&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Ogrenci_Sistem_Giris&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="TezNow" source="x_376509_teznow"&gt;49a49ec2dbc33300d4def53a2996198d&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="TezNow"&gt;49a49ec2dbc33300d4def53a2996198d&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_3b2714b2db077300d4def53a29961918&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-08-07 08:54:58&lt;/sys_updated_on&gt;&lt;table&gt;x_376509_teznow_ogrenci_otomasyon&lt;/table&gt;&lt;type&gt;onSubmit&lt;/type&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-87864633</payload_hash>
+        <record_name>Ogrenci_Sistem_Giris</record_name>
+        <reverted_from/>
+        <source>81a49606dbc33300d4def53a29961960</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-07 08:54:58</sys_created_on>
+        <sys_id>638a5876db077300d4def53a299619a6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16c6b49ddee0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-07 08:54:58</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>ab8a58765707730053d55e4b40f6eba5</update_guid>
+        <update_guid_history>ab8a58765707730053d55e4b40f6eba5:-87864633</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-07 08:56:34</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>10d5132d8b114000a9dd7b0fe020a6e4</sys_id>
+        <sys_metadata>3b2714b2db077300d4def53a29961918</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Ogrenci_Sistem_Giris</sys_name>
+        <sys_package display_value="TezNow" source="x_376509_teznow">49a49ec2dbc33300d4def53a2996198d</sys_package>
+        <sys_parent display_value="Ogrenci Otomasyon">74a9a312db073300d4def53a2996195f</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="TezNow">49a49ec2dbc33300d4def53a2996198d</sys_scope>
+        <sys_scope_delete display_value="">4577e594f0ee46d3acf360be3e4ffe89</sys_scope_delete>
+        <sys_update_name>sys_script_client_3b2714b2db077300d4def53a29961918</sys_update_name>
+        <sys_update_version display_value="sys_script_client_3b2714b2db077300d4def53a29961918">638a5876db077300d4def53a299619a6</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-07 08:56:34</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
